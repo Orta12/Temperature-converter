@@ -2,7 +2,7 @@
 # Temperature-Converter
 
 
-Temperature Converter That Convert Celsius To Fahrenheit
+Temperature Converter That Convert Celsius To Fahrenheit and Fahrenheit To Celsius
 
 
 ## Installation
