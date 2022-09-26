@@ -21,6 +21,8 @@ body {
 	overflow-x: hidden;
 	font-family: Alliance1, Alliance1Fallback, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
 	font-family: 'Ubuntu', sans-serif;
+	overflow-x: hidden;
+	overflow-y: hidden;
 }
 
 #celsius {
@@ -64,4 +66,60 @@ body {
 .fahrenheit_div {
 	position: relative;
 	left: 38px;
+}
+
+
+@media screen and (max-width:1280px) {
+	html {
+		width: 100vw;
+		overflow-x: hidden;
+	}
+
+
+	.fahrenheit_div {
+		position: relative;
+		left: 0px;
+		text-align: center;
+		font-size: medium;
+	}
+
+	#c {
+		position: relative;
+		width: auto;
+		left: -70px;
+	}
+
+	#f {
+		position: relative;
+		width: auto;
+		left: -70px;
+	}
+}
+
+
+@media screen and (max-width:428px) {
+	html {
+		width: 100vw;
+		overflow-x: hidden;
+	}
+
+
+	.fahrenheit_div {
+		position: relative;
+		left: 0px;
+		text-align: center;
+		font-size: medium;
+	}
+
+	#c {
+		position: relative;
+		width: auto;
+		left: -70px;
+	}
+
+	#f {
+		position: relative;
+		width: auto;
+		left: -70px;
+	}
 }
